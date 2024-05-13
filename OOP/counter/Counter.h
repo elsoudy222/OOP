@@ -23,7 +23,7 @@ public:
         return  Counter(count);
     }
     Counter operator -- (){
-        ++count;
+        --count;
         return  Counter(count);
     }
 };
