@@ -1,20 +1,24 @@
 #include <iostream>
 #include "OOP/car_class/Car.h"
-#include "OOP/rectangle_class/rectangle.h"
 #include "OOP/calculator/Calculator.h"
-#include "OOP/counter/Counter.h"
+#include "OOP/inheritance/inheritance.h"
 
 using namespace std;
 
 
 int main() {
 
-    Counter c1(5);
-    Counter c2(15);
-    Counter c3 = ++c1;
-    Counter c4 = --c2;
-    cout<<c3.get_count()<<endl;
-    cout<<c4.get_count()<<endl;
+    Shape* shape_ptr;
+    Rectangle rec(10,7 , "red");
+    Circle cr(5 , "Yellow");
+
+    shape_ptr = &rec;
+    shape_ptr ->area();
+    shape_ptr ->draw();
+
+    shape_ptr = &cr;
+    shape_ptr -> area();
+    shape_ptr -> draw();
 
 //    Car car1;
 //    Rectangle r1;

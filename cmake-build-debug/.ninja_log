@@ -1,0 +1,15 @@
+# ninja log v5
+559	712	1715597284538296893	C__	e68a43ebbf1b41ec
+7	608	1715499830650500275	CMakeFiles/C__.dir/OOP/calculator/Calculator.cpp.o	5df6914970da83d0
+6	558	1715597284386796121	CMakeFiles/C__.dir/main.cpp.o	982200ae9887efa7
+1	63	1715756681334716879	build.ninja	c452c41c2c690062
+14	378	1715595853133804421	CMakeFiles/C__.dir/OOP/car_class/Car.cpp.o	116220d6c3279ada
+8	579	1715424952687767777	CMakeFiles/C__.dir/OOP/first_oop_project/Car.cpp.o	574df7f3963a21f
+7	740	1715428155198130968	CMakeFiles/C__.dir/OOP/rectangle_class/rectangle.cpp.o	53720de13b233971
+7	316	1715597284143572014	CMakeFiles/C__.dir/OOP/counter/Counter.cpp.o	8458bb0f9f5d1fd2
+7	769	1715759997994061607	CMakeFiles/C__.dir/OOP/inheritance/inheritance.cpp.o	d5d3563618d6bc95
+6	783	1715759998009267070	CMakeFiles/C__.dir/main.cpp.o	982200ae9887efa7
+783	965	1715759998190352829	C__	5f24255c065b1fb4
+9	709	1715798512989011288	CMakeFiles/C__.dir/OOP/inheritance/inheritance.cpp.o	d5d3563618d6bc95
+9	720	1715798513002224135	CMakeFiles/C__.dir/main.cpp.o	982200ae9887efa7
+720	903	1715798513184683228	C__	5f24255c065b1fb4

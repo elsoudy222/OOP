@@ -22,6 +22,10 @@ int Car::getModel()  {
     return model;
 }
 
+int Car::GetCarCount() {
+    return 0;
+}
+
 Car::Car() {}
 
 Car::~Car() {}
