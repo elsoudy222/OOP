@@ -7,7 +7,7 @@ using namespace std;
 
 
 int main() {
-
+// Pointer :
     Shape* shape_ptr;
     Rectangle rec(10,7 , "red");
     Circle cr(5 , "Yellow");
