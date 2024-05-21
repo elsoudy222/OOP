@@ -1,36 +1,23 @@
 #include <iostream>
-#include "OOP/car_class/Car.h"
-#include "OOP/calculator/Calculator.h"
-#include "OOP/inheritance/inheritance.h"
+#include <cmath>
+#include "revision/revision.cpp"
 
 using namespace std;
 
 
 int main() {
-// Pointer :
-    Shape* shape_ptr;
-    Rectangle rec(10,7 , "red");
-    Circle cr(5 , "Yellow");
 
-    shape_ptr = &rec;
-    shape_ptr ->area();
-    shape_ptr ->draw();
-
-    shape_ptr = &cr;
-    shape_ptr -> area();
-    shape_ptr -> draw();
-
-//    Car car1;
-//    Rectangle r1;
-//    cout<<"=====================\n";
-//    car1.setMaker("Honda");
-//    car1.setModel(2024);
-//    cout << "This Car Made By " << car1.getMaker() << " And The Model is : " << car1.getModel() << endl;
-
-
-
-
-
+    Employee* emp_ptr;
+    Sales sales1("Ahmed",01,5000.0,50000.0,0.10);
+    Engineer engineer1 ("Said Soudy",10,15000,"Software Engineer",3,10,100);
+    emp_ptr = &sales1;
+    emp_ptr ->get_total_salary();
+    emp_ptr ->print();
+    cout << "=============================================================" << endl;
+    cout << "=============================================================" << endl;
+    emp_ptr = &engineer1;
+    emp_ptr ->get_total_salary();
+    emp_ptr ->print();
 
     return 0;
 }
