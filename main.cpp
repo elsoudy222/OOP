@@ -4,20 +4,43 @@
 
 using namespace std;
 
+int mango(int quantity, int price)
+{
+
+//    return (quantity - quantity/3) * price;
+    return ((quantity % 3) * price) + ((quantity/3) * (2 * price));
+    //           ( 0        * 3  )    +     ( 3 )        *(2 * 3)
+    //                    3           +       3           * 6 => 18
+}
+
+int quarter_of(int month){
+    if(3<= month >0){
+        return 1;
+    } else if ( 6 <= month >3){
+        return 2;
+    } else if(9<= month >6){
+        return 3;
+    } else{
+        return 4;
+    }
+
+}
+
+vector<int> invert(vector<int> values  )
+{
+
+    for(int i =0; i< values.size(); i++){
+        values[i] = values[i] * -1;
+    }
+
+    return values;
+}
 
 int main() {
 
-    Employee* emp_ptr;
-    Sales sales1("Ahmed",01,5000.0,50000.0,0.10);
-    Engineer engineer1 ("Said Soudy",10,15000,"Software Engineer",3,10,100);
-    emp_ptr = &sales1;
-    emp_ptr ->get_total_salary();
-    emp_ptr ->print();
-    cout << "=============================================================" << endl;
-    cout << "=============================================================" << endl;
-    emp_ptr = &engineer1;
-    emp_ptr ->get_total_salary();
-    emp_ptr ->print();
+
 
     return 0;
 }
+
+
